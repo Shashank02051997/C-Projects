@@ -11,7 +11,7 @@ void main()
 	time(&t);
 	srand((unsigned int) t);
 	printf("\t\t\t\tQUIZ\n");
-	printf("For start a Quiz Press s and For Qiut a Quiz Press q: ");
+	printf("For start a Quiz Press s and For Quit a Quiz Press q: ");
 	scanf("%s",&ch);
 	switch(ch)
 	{ case 's': for(i=0;;i++)
